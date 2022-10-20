@@ -1,35 +1,13 @@
 TN:
-SF:src/entities/route.entity.ts
-FN:14,get
-FN:17,Route
-FN:25,updateTitle
-FN:32,updatePosition
-FN:40,updatePoints
-FN:47,get title
-FN:51,set title
-FN:55,get startPosition
-FN:59,set startPosition
-FN:63,get endPosition
-FN:67,set endPosition
-FN:71,get points
-FN:75,set points
-FN:79,toJSON
-FNF:14
-FNH:13
+SF:src/app/usecases/create-route.usecase.ts
+FN:5,get
+FN:6,CreateRouteUseCase
+FN:8,execute
+FNF:3
+FNH:3
 FNDA:1,get
-FNDA:1,Route
-FNDA:1,updateTitle
-FNDA:1,updatePosition
-FNDA:1,updatePoints
-FNDA:1,get title
-FNDA:1,set title
-FNDA:1,get startPosition
-FNDA:1,set startPosition
-FNDA:1,get endPosition
-FNDA:1,set endPosition
-FNDA:2,get points
-FNDA:1,set points
-FNDA:0,toJSON
+FNDA:1,CreateRouteUseCase
+FNDA:1,execute
 DA:1,1
 DA:2,1
 DA:3,1
@@ -53,6 +31,74 @@ DA:20,1
 DA:21,1
 DA:22,1
 DA:23,1
+DA:24,1
+DA:25,1
+DA:26,1
+DA:27,1
+DA:28,1
+LF:28
+LH:28
+BRDA:5,0,0,1
+BRDA:6,1,0,1
+BRDA:8,2,0,1
+BRF:3
+BRH:3
+end_of_record
+TN:
+SF:src/domain/entities/route.entity.ts
+FN:14,get
+FN:17,Route
+FN:25,updateTitle
+FN:32,updatePosition
+FN:40,updatePoints
+FN:47,get title
+FN:51,set title
+FN:55,get startPosition
+FN:59,set startPosition
+FN:63,get endPosition
+FN:67,set endPosition
+FN:71,get points
+FN:75,set points
+FN:79,toJSON
+FNF:14
+FNH:14
+FNDA:3,get
+FNDA:3,Route
+FNDA:1,updateTitle
+FNDA:1,updatePosition
+FNDA:1,updatePoints
+FNDA:1,get title
+FNDA:1,set title
+FNDA:1,get startPosition
+FNDA:1,set startPosition
+FNDA:1,get endPosition
+FNDA:1,set endPosition
+FNDA:2,get points
+FNDA:1,set points
+FNDA:1,toJSON
+DA:1,1
+DA:2,1
+DA:3,1
+DA:4,1
+DA:5,1
+DA:6,1
+DA:7,1
+DA:8,1
+DA:9,1
+DA:10,1
+DA:11,1
+DA:12,1
+DA:13,1
+DA:14,1
+DA:15,1
+DA:16,1
+DA:17,1
+DA:18,3
+DA:19,3
+DA:20,3
+DA:21,3
+DA:22,3
+DA:23,3
 DA:24,1
 DA:25,1
 DA:26,1
@@ -109,19 +155,19 @@ DA:76,1
 DA:77,1
 DA:78,1
 DA:79,1
-DA:80,0
-DA:81,0
-DA:82,0
-DA:83,0
-DA:84,0
+DA:80,1
+DA:81,1
+DA:82,1
+DA:83,1
+DA:84,1
 DA:85,1
 DA:86,1
 DA:87,1
 DA:88,1
 LF:88
-LH:83
-BRDA:14,0,0,1
-BRDA:17,1,0,1
+LH:88
+BRDA:14,0,0,3
+BRDA:17,1,0,3
 BRDA:25,2,0,1
 BRDA:32,3,0,1
 BRDA:40,4,0,1
@@ -133,6 +179,47 @@ BRDA:63,9,0,1
 BRDA:67,10,0,1
 BRDA:71,11,0,2
 BRDA:75,12,0,1
-BRF:13
-BRH:13
+BRDA:79,13,0,1
+BRF:14
+BRH:14
+end_of_record
+TN:
+SF:src/infra/database/inMemory/route-in-memory.ts
+FN:4,get
+FN:5,<instance_members_initializer>
+FN:7,insert
+FN:11,findAll
+FN:15,findById
+FNF:5
+FNH:3
+FNDA:2,get
+FNDA:2,<instance_members_initializer>
+FNDA:2,insert
+FNDA:0,findAll
+FNDA:0,findById
+DA:1,1
+DA:2,1
+DA:3,1
+DA:4,1
+DA:5,1
+DA:6,1
+DA:7,1
+DA:8,2
+DA:9,2
+DA:10,1
+DA:11,1
+DA:12,0
+DA:13,0
+DA:14,1
+DA:15,1
+DA:16,0
+DA:17,0
+DA:18,1
+LF:18
+LH:14
+BRDA:4,0,0,2
+BRDA:5,1,0,2
+BRDA:7,2,0,2
+BRF:3
+BRH:3
 end_of_record
